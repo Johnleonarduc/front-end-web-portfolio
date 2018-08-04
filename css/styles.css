@@ -1,0 +1,132 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+html body main{
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+img{
+    width: 100vw;
+    max-width: 100%;
+    border-style: groove;
+    border-color: #02b3e4;
+    border-width: 2px;
+}
+
+
+/* Header Area */
+header{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header-container{
+    display: flex;
+}
+
+#logo-image{
+    border-radius: 55%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+}
+
+.name-block{
+    text-align: right;
+    margin: 2px 2px 2px 2px;
+}
+
+.name{
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+}
+
+.job-description{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-hr{
+    display: block;
+    content: "";
+    border-style: solid;
+    border-color: #2d3c49;
+    margin-top: -31px;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+}
+
+ 
+/* Hero image section styles */
+.div-over-hero{
+    position: absolute;
+}
+
+.hero-caption{
+    color: white;
+    background: rgba(0,0,0,0.4);
+}
+
+
+/* Featured Image section styles */
+.featured{
+    color: #7d97ad;
+}
+
+.featured-work-container{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+figcaption{
+    color: #2d3c49;
+    text-align: center;
+    font-weight: bold;
+}
+
+figcaption a{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+}
+
+.featured-image{
+    width: 100%;
+    box-shadow: 5px 5px 5px 0px rgba(153,153,153,0.5);
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 100%;
+}
+
+
+/* Footer Section */
+.footer-hr{
+    display: block;
+    content: "";
+    height: 10px;
+    margin-top: -10px;
+    border-style: solid;
+    border-color: #2d3c49;
+    border-width: 2px 0 0 0;
+    border-radius: 10px;
+}
+
+.social-icons-footer{
+    display: inline-block;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}

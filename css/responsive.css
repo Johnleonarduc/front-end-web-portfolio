@@ -1,0 +1,328 @@
+/**
+There are 3 major breakpoints used here with other minor breakpoints to adjust some items.
+Major breakpoint happens at screen sizes:
+1. Below 430px (minor breakpoints at: 260px and 300px),
+2. Between 431px to 699px (minor breakpoints at: 486px and 550px),
+3. Above 700px (minor breakpoints at: 876px and 1129px).
+**/
+
+/* Major Breakpoint for screens greater than 700px */
+@media screen and (min-width: 700px) {
+    /* Header Area */
+    .header-container{
+        width: 100%;
+    }
+
+    .logo-div{
+        width: 20%;
+    }
+
+    #logo-image{
+        margin-top: 10px;
+        margin-left: 10px;
+        max-width: 40%;
+    }
+
+    .social-icons-header{
+        margin-left: 7%;
+    }
+
+    .fa-facebook {
+        margin-right: 4vw;
+        padding: 0.2vw;
+    }
+
+    .name-block{
+        font-size:1.5vw;
+        padding-left: 10px;
+        text-align: right;
+        margin-right: 5px;
+        width: 80%;
+    }
+
+    .header-hr{
+        height: 20px;
+    }
+
+    /* Hero image section styles */
+    .div-over-hero{
+        top: 15vw;
+        left: 20px;
+    }
+
+    .hero-caption{
+        font-size: 5vw;
+    }
+
+    /* Featured Image section styles */
+    .pixel-art{
+        width: calc((100% - 60px)/3);
+    }
+
+    .portfolio-site{
+        width: calc((100% - 60px)/3);
+    }
+
+    .animal-trading{
+        width: calc((100% - 60px)/3);
+    }
+
+    figcaption{
+        font-size: 1.7vw;
+    }
+    figcaption a{
+        width:100%;
+        font-size: 1.2vw;
+    }
+
+    /* Footer Section */
+    .footer-hr{
+        height: 7px;
+    }
+
+    .footer-note{
+        font-size: 1.35vw;
+        padding-left: 7%;
+    }
+
+    .social-icons-footer{
+        margin-left: 60%;
+    }
+}
+
+/* Minor breakpoint for screens between 700px and 1129 */
+@media screen and (max-width: 1129px) {
+    .header-hr{
+        height: 30px;
+    }
+}
+
+/* Minor breakpoint for screens between 700px and 876px */
+@media screen and (max-width: 876px) {
+    #logo-image{
+        max-width: 35%;
+    }
+
+    .fa-facebook {
+        margin-right: 3vw;
+    }
+}
+
+
+/* Major breakpoint for screens between 431px and 699 */
+@media screen and (min-width: 431px) and (max-width: 699px) {
+    /* Header Area */
+    .header-container{
+        width: 100%;
+        height: 20%;
+    }
+
+    .logo-div{
+        width: 15%;
+    }
+
+    #logo-image{
+        margin-top: 10px;
+        margin-left: 10px;
+        max-width: 70%;
+    }
+
+    .social-icons-header{
+        margin-left: 20%;
+    }
+
+    .fa-facebook {
+        margin-right: 3vw;
+        padding: 0.5vw;
+    }
+
+    .name-block{
+        font-size:1.7vw;
+        padding-left: 10px;
+        text-align: right;
+        margin-right: 5px;
+        width: 85%;
+    }
+
+    .header-hr{
+        height: 40px;
+    }
+
+    /* Hero image section styles */
+    .div-over-hero{
+        top: 20vw;
+        left: 20px;
+    }
+
+    .hero-caption{
+        font-size: 5vw;
+    }
+
+    /* Featured Image section styles */
+    .pixel-art{
+        width: calc((100% - 40px)/2);
+    }
+
+    .portfolio-site{
+        width: calc((100% - 40px)/2);
+    }
+
+    .animal-trading{
+        width: calc((100% - 40px)/2);
+    }
+
+    figcaption{
+        font-size: 3vw;
+    }
+
+    figcaption a{
+        width: 100%;
+        font-size: 2vw;
+    }
+
+    /* Footer Section */
+    .footer-note{
+        font-size: 3vw;
+        padding-left: 5%;
+    }
+
+    .social-icons-footer{
+        margin-left: 25%;
+    }
+}
+
+/* Minor breakpoint for screens between 431px and 550px */
+@media screen and (max-width: 550px) {
+    .div-over-hero{
+        top: 25vw
+    }
+}
+
+/* Minor breakpoint for screens between 431px and 486px */
+@media screen and (max-width: 486px) {
+    .logo-div{
+        width: 20%;
+    }
+
+    .name-block{
+        font-size: 2vw;
+        width: 80%;
+    }
+
+    .div-over-hero{
+        top: 30vw
+    }
+
+    figcaption{
+        font-size: 2.5vw;
+    }
+}
+
+
+/* Major breakpoint for screens below 430px */
+@media screen and (max-width: 430px) {
+    /* Header Area */
+    .header-container{
+        width: 100%;
+        height: 25%;
+    }
+
+    .logo-div{
+        width: 30%;
+    }
+
+    #logo-image{
+        margin-top: 25px;
+        margin-left: 10px;
+        max-width: 100%;
+    }
+
+    .social-icons-header{
+        margin-left: 30%;
+    }
+
+    .fa-facebook {
+        margin-right: 5.5vw;
+        padding: 1vw;
+    }
+
+    .name-block{
+        font-size:3.5vw;
+        padding-left: 10px;
+        text-align: right;
+        margin-right: 10px;
+        width: 70%;
+    }
+
+    .job-description{
+        font-size: 4.7vw;
+    }
+
+    .header-hr{
+        height: 30px;
+    }
+
+    /* Hero image section styles */
+    .div-over-hero{
+        top: 50vw;
+    }
+
+    .hero-caption{
+        font-size: 6vw;
+    }
+
+    /* Featured Image section styles */
+    .pixel-art{
+        width: 100%;
+    }
+
+    .portfolio-site{
+        width: 100%;
+    }
+
+    .animal-trading{
+        width: 100%;
+    }
+
+    figcaption{
+        font-size: 6vw;
+    }
+
+    figcaption a{
+        font-size: 4vw;
+    }
+
+
+    /* Footer Section */
+    .footer-note{
+        font-size: 4vw;
+        padding-left: 5%;
+    }
+
+    .social-icons-footer{
+        margin-left: 10%;
+    }
+}
+
+/* Minor breakpoint for screens below 300px */
+@media screen and (max-width: 300px) {
+    #logo-image{
+        max-width: 90%;
+    }
+}
+
+/* Minor breakpoint for screens below 260px */
+@media screen and (max-width: 260px) {
+    .fa-facebook {
+        margin-right: 2vw;
+        padding: 0.5vw;
+    }
+    
+    .social-icons-header{
+        margin-left: 25%;
+    }
+
+    .div-over-hero{
+        top: 55vw;
+    }
+}
